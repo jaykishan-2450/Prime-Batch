@@ -18,6 +18,7 @@ const server = http.createServer((req, res) => {
   if (path === "/products" && method === "POST") {
     // console.log("query:", query);
   }
+  //woohoooooo maza aa gya
   console.log("obj:", obj);
   const fun = async () => {
     const oldData = await fs.readFile("./data.json", "utf-8");
