@@ -1,0 +1,30 @@
+MVG--
+Models,Views and Contoller 
+
+--BASIC STRUCTURE OF THE FOLDER OF A PROJECT--
+  -node modules
+  -package.json
+  -utils
+  -databases
+  -V1-(API folder-new updated codes for api can be written in v2,v3 folders etc.)
+      --middleware
+      --controller
+      --services
+  -constants
+  -config.js
+
+  ----------------------------------------------------------------------------------
+
+         App.js
+           |
+         router
+           |
+       controller
+           |
+  -----------------------
+  |                     |
+  service A       service B
+  |                     |
+  -----------------------
+            |
+        operations 
